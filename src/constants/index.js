@@ -1,64 +1,61 @@
 import {
     javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,
     hf,bny,holopin,
-    clg,school,
+    clg,school, torbita,
     crypto,oop,yml,crud,dwld,onetomany,
     trie,ds,cg,
-    port_3d, jsp, chitchat, notes, react1,
+    port_3d, jsp, chitchat, notes, react1, dental, market,
     be,sql, mini, snl,
   } from "../assets";
 
   const profiles = [
     {
-      link: "https://auth.geeksforgeeks.org/user/aarti_rathi",
+      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
       icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
     },
     {
-      link: "https://www.coursera.org/account/accomplishments/specialization/7V2SFZ9YWWRL",
+      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
       icon: "https://img.icons8.com/fluency/344/google-cloud.png",
     },
     {
-      link: "https://www.qwiklabs.com/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
+      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
       icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-qwiklabs-provides-real-cloud-environments-that-help-developers-logo-color-tal-revivo.png",
     },
     {
-      link: "https://www.hackerrank.com/_shinchancode",
+      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
       icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
     },
     {
-      link:"https://dev.to/shinchancode",
+      link:"https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
       icon: hf,
     },
     {
-      link:"https://www.holopin.io/@shinchancode#badges",
+      link:"https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
       icon: holopin,
     },
   ];
 
   const achievements = [
     {
-      title: "Table Tennis winner at BNY : Secured first position for Singles, Women doubles and Mixed doubles (2024).",
+      title: " Mastered frontend frameworks (e.g., Vue, Angular), backend languages (e.g., Go, Python), and databases (SQL/NoSQL).",
     },
     {
-      title: "8th Position : Selected for the final round of 12th CSI InApp International Student Project awards 2023.",
+      title: "Lead and contribute to the development of complex web applications across multiple tech stacks (React, Node.js, Django, etc.).",
     },
     {
-      title: "SPPU Pune university state level Table-Tennis winner (2021 and 2022).",
+      title: "Set up CI/CD pipelines, containerized apps using Docker, and deployed systems to AWS, Azure, or GCP.",
     },
     {
-      title: "1st Position : Consecutive four times Winner of UdChalo Scholarship in AIT Pune (2019 - 2023).",
+      title: "1st Position : Consecutive four times Winner of Tech Scholarship in Torbita Institute (2019 - 2023).",
     },
     {
-      title: "Branch Head of Information Technology Departmentin in AIT Pune (2021 - 2022).",
+      title: "Served as Branch Head of IT Department (2021 – 2022), leading events and mentoring juniors.",
     },
     {
       title: "Selected in top 100 candidates for Google Cloud Training among 20k Students (2021).",
     },
     {
-      title: "Got Education Scholarship Scheme for Army Personnel(ESSA) Scholarship for securing 90+ % (2015 - 2023).",
-    },
-    {
-      title: "Played Nationals in Throwball for U-14 category. (2015).",
+      title: " Design scalable backend systems and RESTful APIs used by thousands of users.",
     },
   ]
   
@@ -111,21 +108,24 @@ import {
       name:"MySql",
       icon: "https://img.icons8.com/color/480/000000/mysql-logo.png",
     },
+    
   ];
 
-  const list = [
-    {
-      id: "java",
-      title: "Java",
-    },
-    {
-      id: "c++",
-      title: "C++",
-    },
+const list = [
     {
       id: "web",
       title: "Web Dev",
     },
+    {
+      id: "java",
+      title: "Java",
+    },
+   
+    {
+      id: "c++",
+      title: "C++",
+    },
+   
     {
       id: "other",
       title: "Other",
@@ -152,8 +152,8 @@ import {
         },
       ],
       image: crypto,
-      source_link: "https://github.com/shinchancode/Cryptography",
-      source_code_link: "https://github.com/shinchancode/Cryptography",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "Snake Yaml",
@@ -174,8 +174,8 @@ import {
         },
       ],
       image: yml,
-      source_link: "https://github.com/shinchancode/Snake-Yaml-Project",
-      source_code_link: "https://github.com/shinchancode/Snake-Yaml-Project",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "CRUD operations",
@@ -196,8 +196,8 @@ import {
         },
       ],
       image: crud,
-      source_link: "https://github.com/shinchancode/CRUD-Operation",
-      source_code_link: "https://github.com/shinchancode/CRUD-Operation",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "Byte-Array-to-File",
@@ -218,8 +218,8 @@ import {
         },
       ],
       image: dwld,
-      source_link: "https://github.com/shinchancode/byte-array-to-file",
-      source_code_link: "https://github.com/shinchancode/byte-array-to-file",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "Spring Boot One To Many",
@@ -240,8 +240,8 @@ import {
         },
       ],
       image: onetomany,
-      source_link: "https://github.com/shinchancode/oneTomany-springboot",
-      source_code_link: "https://github.com/shinchancode/oneTomany-springboot",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "OOP Lab",
@@ -262,8 +262,8 @@ import {
         },
       ],
       image: oop,
-      source_link: "https://github.com/shinchancode/Object-Oriented-Programming-Lab",
-      source_code_link: "https://github.com/shinchancode/Object-Oriented-Programming-Lab",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
   ];
   
@@ -287,8 +287,8 @@ import {
         },
       ],
       image: trie,
-      source_link: "https://github.com/shinchancode/Trie-Data-structure",
-      source_code_link: "https://github.com/shinchancode/Trie-Data-structure",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "DSA Lab",
@@ -309,8 +309,8 @@ import {
         },
       ],
       image: ds,
-      source_link: "https://github.com/shinchancode/Data-Structure-Algorithms",
-      source_code_link: "https://github.com/shinchancode/Data-Structure-Algorithms/",
+      source_link: "hhttps://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "Computer Graphics Lab",
@@ -331,8 +331,8 @@ import {
         },
       ],
       image: cg,
-      source_link: "https://github.com/shinchancode/Computer-Graphics",
-      source_code_link: "https://github.com/shinchancode/Computer-Graphics",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     
   ];
@@ -357,31 +357,54 @@ import {
         },
       ],
       image: port_3d,
-      source_link: "https://shinchancode.github.io/3d-react-portfolio/",
-      source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
-      name: "React portfolio",
+      name: "Dental Website",
       description:
-        "Website made using React in the FrontEnd, Nodejs and Express in the BackEnd. Responsive webpage is made with user friendly interface",
+        "Redesigned a professional dental clinic website using WordPress and Elementor. Delivered a responsive, SEO-optimized 20+ page platform with booking functionality, and iframe embeds",
       tags: [
         {
-          name: "nodejs",
+          name: "Custom CSS",
           color: "blue-text-gradient",
         },
         {
-          name: "React",
+          name: "Elementor",
           color: "green-text-gradient",
         },
         {
-          name: "html css",
+          name: "WordPress",
           color: "pink-text-gradient",
         },
       ],
-      image: react1,
-      source_link: "https://shinchancode.github.io/React-Portfolio/",
-      source_code_link: "https://github.com/shinchancode/React-Portfolio",
+      image: dental,
+      source_link: "https://plainlanddental.com.au",
+      source_code_link: "https://plainlanddental.com.au",
     },
+    {
+      name: "Multi-Vendor Marketplace",
+      description:
+        "Developed a fully functional multi-vendor marketplace with affiliate referral features and e-commerce capabilities. Built using React and Tailwind CSS, supports custom vendor dashboards and 3D UI elements for an engaging UX",
+      tags: [
+        {
+          name: "TailwindCSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ThreeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: market,
+      source_link: "https://tradelineexpress.co",
+      source_code_link: "https://tradelineexpress.co",
+    },
+   
     {
       name: "30 Days of JavaScript",
       description:
@@ -401,8 +424,8 @@ import {
         },
       ],
       image: jsp,
-      source_link: "https://rathi-30-days-of-javascript.onrender.com/",
-      source_code_link: "https://github.com/shinchancode/30-Days-of-Javascript",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "Chit Chat Application",
@@ -423,16 +446,16 @@ import {
         },
       ],
       image: chitchat,
-      source_link: "https://chit-chat-app.onrender.com/",
-      source_code_link: "https://github.com/shinchancode/Chit-Chat-Real_time_chat_app",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
-      name: "Notes Application",
+      name: "Rizz Rentals",
       description:
-        "A web-based notes app made by using javaScript, This web-based notes app having functionalities like Drag and drop, Search notes etc.",
+        "Developed a sleek, fully responsive website for Rizz Rentals by converting Figma designs into a modern interface using Next.js and Tailwind CSS",
       tags: [
         {
-          name: "notes",
+          name: "Tailwind CSS",
           color: "blue-text-gradient",
         },
         {
@@ -440,13 +463,13 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "next.js",
           color: "pink-text-gradient",
         },
       ],
       image: notes,
-      source_link: "https://shinchancode.github.io/Notes-App/",
-      source_code_link: "https://github.com/shinchancode/Notes-App",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
   ];
   
@@ -471,7 +494,7 @@ import {
       ],
       image: be,
       source_link: "https://drive.google.com/drive/folders/1LECu5ENk_zsowbPeRN_R1V8Rf2Gp7N6l",
-      source_code_link: "https://github.com/shinchancode/Final-Year-Project",
+      source_code_link: "https://github.com/MacsMorgan",
     },
 
     {
@@ -493,8 +516,8 @@ import {
         },
       ],
       image: sql,
-      source_link: "https://github.com/shinchancode/DBMS-SQL-Lab",
-      source_code_link: "https://github.com/shinchancode/DBMS-SQL-Lab",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "SQL : Library Management System",
@@ -515,8 +538,8 @@ import {
         },
       ],
       image: mini,
-      source_link: "https://github.com/shinchancode/Mini-Project-SQL-LibraryManagement",
-      source_code_link: "https://github.com/shinchancode/Mini-Project-SQL-LibraryManagement",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     {
       name: "Pyhton : Snake and Ladder",
@@ -537,130 +560,133 @@ import {
         },
       ],
       image: snl,
-      source_link: "https://github.com/shinchancode/MINI_PROJECT-Snake-and-Ladder",
-      source_code_link: "https://github.com/shinchancode/MINI_PROJECT-Snake-and-Ladder",
+      source_link: "https://github.com/MacsMorgan",
+      source_code_link: "https://github.com/MacsMorgan",
     },
     
   ];
   
   const experiences = [
     {
-      title: "Software Devloper",
-      company_name: "Bank of New York Mellon",
+      title: "Full stack web developer",
+      company_name: "OMTech Technologies",
       icon: bny,
       iconBg: "#383E56",
-      date: "Aug 2023 - Present",
+      date: "November 2020 - Present",
       link: "",
       points: [
-        "Software build is now used internally in the company and by the company’s clients for operating Netx360 and Netx360+.",
-        "Resolved more than 50+ Software Composition Analysis (SCA) and vulnerabilities issues. Adapted Agile methodologies, CI/CD, and Test-Driven Programming to uphold strong programming practices.",
-        "Developed backend services and RESTful APIs with login authentication, validation, and error handling to support seamless data flow. On the frontend, I built dynamic grids with filtering, sorting, and pagination, and optimized performance using lazy loading.",
-        "Added interactive features like modals, real-time search, and role-based content to enhance user experience and responsiveness.",
-        "Using technologies like Java, SpringBoot, C#, .NET and AngularJS."
+        "Scripted and coded for various projects including Perl, Visual Basic, and Java.",
+        "Designed and carried out numerous performance tests with technologies such as HP LoadRunner and Java Virtual Machine.",
+        "Used technologies such as JVM, BMC Patrol, and Sawmill to track, report, and analyze data.",
+        "Delivered test reports based on self-generated data analysis and system behavior evaluation.",
+        "Organizing and participating in weekly conference calls with project stakeholders and IT professionals."
       ],
-      link: "https://drive.google.com/drive/folders/13FK-YewFDv8ALmzKglPBmb6Z3oenuYoP",
+      link: "https://omtechmasters.co.uk/",
     },
     {
-      title: "Research Intern",
-      company_name: "National Security Council Secretriat",
+      title: "Senior Software Engineer",
+      company_name: "Deutrix Tech ",
       icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-national-security-agency-crowdfunding-flaticons-lineal-color-flat-icons-2.png",
       iconBg: "#383E56",
-      date: "Mar 2022 - Oct 2023",
+      date: "April 2019 - March 2020 ",
       link: "",
       points: [
-        "Creating a system for secure fine-grained next-generation access control and authorization of digital assets and operations using policy based cryptosystem.",
+        "contributed to the Fusion program by developing code on both the client and server sides.",
         "Collaborating with cross-functional technologies like spring boot, react etc. to integrate high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "* Distributed several implementations of the source code to various testing environments.",
       ],
-      link: "https://github.com/codewithrathi",
+      link: "https://deutrix.com/",
     },
     {
-      title: "DSA Mentor",
-      company_name: "GeeksforGeeks (Intern)",
+      title: "MERN Stack Developer",
+      company_name: "Zenbit Tech (INTERN)",
       icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
       iconBg: "#E6DEDD",
-      date: "May 2022 - Apr 2023",
+      date: "April 2018 - February 2019",
       link: "",
       points: [
-        "Teaching Assistant : Teaching Assistant for online batches of Data Structures, Algorithms, and Competitive programming with an average rating of 4.9*.",
+        "Plan the design of customers' websites by defining goals and creating functionality.",
         "Responsible for reviewing and writing articles based on Data Structures and Algorithms.",
+        "* Identify and analyze opportunities for improvement, such as introducing new technology and preserving linkages.",
       ],
-      link: "https://drive.google.com/drive/folders/1efpnfKpRTvtujtSgHwRIJdrMFiWrBFHt",
+      link: "https://zenbit.tech/",
     },
     {
-      title: "Technical Content Writer",
-      company_name: "GeeksforGeeks",
+      title: "ReactJS | NextJS Developer ",
+      company_name: "Upwork Community",
       icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
       iconBg: "#383E56",
-      date: "Dec 2020 - July 2022",
+      date: "Dec 2024 - Present",
       link: "",
       points: [
-        "Creative and experienced content writer with 2+ years of experience.",
-        "Attracted over 10000+ visitors to the company website with powerful educational content.",
+        "Creative and experienced React developer with 5+ years of experience.",
+        "Attracted over 10000+ visitors to each company's website I developed with powerful educational content.",
         "Wrote 100+ articles and improved 300+ articles on topics like Data Structures, Algorithms, Mathematics and related engineering topics",
       ],
-      link: "https://auth.geeksforgeeks.org/user/_shinchancode",
+      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
     },
     {
-      title: "Google Cloud Training",
+      title: "WordPress / Shopify / Webflow Developer ",
+      company_name: "Upwork Community",
+      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
+      iconBg: "#383E56",
+      date: "Dec 2024 - Present",
+      link: "",
+      points: [
+        "Designing front End prototypes using Adobe XD or Figma.",
+        "Developing the website using ELEMENTOR PRO for WordPress or your preferred web builder.",
+        " I offer a comprehensive range of services to help businesses establish and enhance their online presence.",
+      ],
+      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
+    },
+    {
+      title: "Website Speed Optimization ",
       company_name: "Google Cloud",
       icon: "https://img.icons8.com/fluency/344/google-cloud.png",
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Apr 2021",
       link: "",
       points: [
-        "Introduction to GCP and more functionalities with free access to quests, skill badges.",
+        "Through intensive testing, I identify and resolve all sources of slowness and optimize key web vital scores. ",
         "Collaborating with cross-functional technologies.",
-        "Got introduced to Computing, Application Development, Big Data and Machine Learning using Google Cloud's on training platform Qwiklabs",
+        " On both mobile and desktop devices, I strive to have your site loaded quickly under 2 seconds.",
         "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
       ],
-      link: "https://www.cloudskillsboost.google/public_profiles/48dcd029-03b4-437b-9dd3-ef7d65958eb0",
+      link: "https://www.upwork.com/freelancers/~01a2a841e7e1767e4e",
     },
-    {
-      title: "Hacktoberfest",
-      company_name: "GitHub",
-      icon: hf,
-      iconBg: "#E6DEDD",
-      date: "Oct (2020 - 2022)",
-      link: "",
-      points: [
-        "Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR).",
-        "GitHub hosts many open source repositories that contribute to this event.",
-      ],
-      link: "https://dev.to/shinchancode",
-    },
+   
   ];
   
   const educations = [
     {
-      degree: "Bachelor of Engineering",
+      degree: "Bachelor of Computer Science",
       branch:
         "Information Technology",
       marks:
-        "SGPA : 9.42 / 10",
-      name: "Army Institute of Technology Dighi, Pune",
-      year: "(2019 - 2023)",
+        "CGPA : 4.62 / 5",
+      name: "Obafemi Awolowo University, Nigeria",
+      year: "(2012 - 2016)",
       image: clg,
     },
     {
       degree:
-        "12th Grade",
-      branch : "Science",
+        "Master of Computer Science (MSCS)",
+      branch : "Software Engineering",
       marks:
-        "Percentage : 89.88 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2018",
+        "GPA : 4.57",
+      name: "University of Lagos, Akoka",
+      year: "2017 - 2019",
       image: school,
     },
     {
       degree:
-        "10th Grade",
-      branch: "SSC",
+        "Certified Full Stack Developer",
+      branch: "MERN & Next.js Development",
       marks:
-        "Percentage : 95 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2016",
-      image: school,
+        "Percentage : 90 %",
+      name: "Torbita Computer Institute, Abuja",
+      year: "2020",
+      image: torbita,
     },
   ];
   

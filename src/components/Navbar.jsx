@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { logo} from "../assets";
+import { logo } from "../assets";
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -32,32 +32,45 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w mx-auto'>
+      <div className="w-full flex justify-between items-center max-w mx-auto">
         <Link
-          to='/'
-          className='flex items-center gap-2'
+          to="/"
+          className="flex items-center gap-2"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain logo' />
-          <p className='sm:block text-white text-[18px] font-bold cursor-pointer flex '>
-          aarti.rathi
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain logo" />
+          <p className="sm:block text-white text-[18px] font-bold cursor-pointer flex ">
+            michael.shittu
           </p>
         </Link>
 
-        <div className='sm:flex gap-5'>
+        <div className="sm:flex gap-5">
           <div
-              className={`top2 ${"text-secondary"
-              } hover:text-white text-[15px] font-medium cursor-pointer`}
+            className={`top2 ${"text-secondary"} hover:text-white text-[15px] font-medium cursor-pointer`}
+          >
+            <a
+              href="https://drive.google.com/drive/folders/1zb2aCalO7HXhzV_8MpFMfYkthYGK1jTA"
+              target="_blank"
             >
-              <a href="https://drive.google.com/drive/folders/13YGuvdkXQdyFzfuJd3YdUaG99dhCPz22?pli=1" target="_blank">Resume</a>
+              Resume
+            </a>
+            <br />
+            <br />
+
+            <a
+              href="https://cal.com/michael-shittu/website-discussion"
+              target="_blank"
+            >
+              Schedule a meeting
+            </a>
           </div>
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

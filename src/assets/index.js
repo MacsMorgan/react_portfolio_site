@@ -1,5 +1,5 @@
-import logo from "./arr.svg";
-import aarti from "./photo1.jpg";
+import logo from "./morgan_logo.jpg";
+import aarti from "./photo1.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -21,8 +21,9 @@ import threejs from "./tech/threejs.svg";
 import holopin from "./holopin.png";
 import hf from "./hf.svg";
 import bny from "./bny.png";
-import clg from "./clg.png";
+import clg from "./clg.jpeg";
 import school from "./school.png";
+import torbita from "./torbita.png";
 
 import crypto from "./project/crypto.jpg";
 import oop from "./project/oop.png";
@@ -40,6 +41,8 @@ import jsp from "./project/jsp.png";
 import notes from "./project/notes.png";
 import chitchat from "./project/chitChat.png";
 import react1 from "./project/react1.png";
+import dental from "./project/dental.png";
+import market from "./project/market.png";
 
 import be from "./project/mcq.avif";
 import sql from "./project/sql.jpg";
@@ -67,10 +70,11 @@ export {
   demo,
   clg,
   school,
+  torbita,
   crypto,
   aarti,
   oop,crud,dwld,onetomany,yml,
   trie,ds,cg,
-  port_3d, jsp, chitchat, notes, react1,
+  port_3d, jsp, chitchat, notes, react1, dental, market,
   be,sql, mini, snl,
 };
