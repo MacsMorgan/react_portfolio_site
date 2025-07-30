@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-    build: {
-        chunkSizeWarningLimit: 100000000
-    },
-    base: "/react_portfolio_site/",
+  build: {
+    chunkSizeWarningLimit: 100000000
+  },
+  base: "/react_portfolio_site/"
 })
