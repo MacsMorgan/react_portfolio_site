@@ -1,5 +1,5 @@
-import logo from "./morgan_logo.jpg";
-import aarti from "./photo1.png";
+import logo from "./mike_logo1.svg";
+import aarti from "./mike_logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
