@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 import { init } from "ityped";
 import React, { useEffect, useRef } from "react";
 import { AiOutlineGithub } from "react-icons/ai";
@@ -78,7 +78,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-2 bottom-6 w-10 flex justify-end items-center">
         <a href="#education">
