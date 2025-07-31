@@ -1,4 +1,4 @@
-import logo from "./mike_logo1.svg";
+import logo from "./arr.svg";
 import aarti from "./mike_logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
