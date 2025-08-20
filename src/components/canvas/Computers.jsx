@@ -53,6 +53,11 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  // 🚫 Skip rendering entirely on mobile devices
+  if (isMobile) {
+    return null;
+  }
+
   return (
     <Canvas
       frameloop="demand"
